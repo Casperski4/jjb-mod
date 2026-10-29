@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "jojobleach",
+  "version": "${version}",
+  "name": "Stands & Bankai",
+  "description": "Мод-кроссовер: стенды и банкаи с оригинальными героями, сюжет на ~4 часа, карта-арены и сбалансированная боёвка.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.jjb.JjbMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
